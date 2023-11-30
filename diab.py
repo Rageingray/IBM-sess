@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from keras.models import Sequential
 from keras.layers import Dense
 
-df = pd.read_csv(r"C:\Users\arshb\OneDrive\Desktop\diabetes.csv")
+df = pd.read_csv(r"diabetes.csv")
 
 
 X = df.drop('Outcome', axis=1)
